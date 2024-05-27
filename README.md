@@ -1,7 +1,7 @@
 # COMO USAR?
 
 
-1. Clone o projeto no seu no seu ambiente local:
+1. Clone o projeto no seu ambiente local:
 
 ```
 git clone (link do projeto)
