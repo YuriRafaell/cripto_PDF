@@ -1,4 +1,6 @@
-# COMO USAR?
+# EM ATUALIZAÇÃO
+
+## COMO USAR?
 
 
 1. Clone o projeto no seu ambiente local:
@@ -39,3 +41,16 @@ OBS: Rode o python de acordo com sua versão instalada no seu sistema.
   * Eficiência: Operações de leitura e gravação em memória são geralmente mais rápidas do que    operações de disco.
   * Flexibilidade: Permite manipular os dados antes de gravá-los no disco, como aplicar criptografia ou compressão.
   * Segurança: Dados sensíveis podem ser mantidos na memória temporariamente e manipulados antes de serem escritos em um local permanente.
+
+
+### Para tornar um executavel 
+
+1. Instale 
+```
+pip install pyinstaller
+```
+
+2. Rode
+```
+pyinstaller --onefile app.py
+```
