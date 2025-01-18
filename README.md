@@ -1,4 +1,6 @@
-# EM ATUALIZAÇÃO
+# Proteja seus arquivos com senha
+
+Converta um arquivo `.txt` em `.pdf` e proteja com uma senha segura de sua escolha.
 
 ## COMO USAR?
 
