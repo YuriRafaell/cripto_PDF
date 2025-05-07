@@ -45,6 +45,7 @@ def proteger_pdf(arquivo_pdf, arquivo_pdf_protegido, senha):
 
 # Função para escolher arquivo
 def selecionar_arquivo():
+    root.update()
     arquivo = filedialog.askopenfilename(
         title="Selecione o arquivo",
         filetypes=[

@@ -38,3 +38,22 @@ pyinstaller --onefile app.py
 ```
 
 Vai gerar duas pastas: `build`e `dist`. Dentro da pasta `dist` estará o executavel.
+
+### Desde as versões mais recentes do Ubuntu (como 22.04 em diante), o sistema protege a instalação global do Python com o PEP 668, impedindo instalações com pip fora de ambientes virtuais.
+
+#### "Então como rodar se o ubuntu protege o sistema?"
+
+### Criando um ambiente virtual
+
+1. Abra o terminal no diretório do projeto e rode:
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install PyPDF2
+```
+
+2. Isso irá criar um ambiente virtual chamado `venv` na pasta do seu projeto, para rodar, execute:
+```
+source venv/bin/activate
+python app.py
+```
